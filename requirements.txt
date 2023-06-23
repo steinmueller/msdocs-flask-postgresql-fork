@@ -3,7 +3,7 @@ Flask-Migrate
 Flask-SQLAlchemy
 flask_wtf
 Flask-Login
-psycopg2
+psycopg2-binary
 python-dotenv
 SQLAlchemy
 Werkzeug
