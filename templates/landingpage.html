@@ -1,0 +1,15 @@
+{% extends "base_template.html" %}
+{% block title %}TNA{% endblock %} 
+
+{% block content%}
+<!-- Login button redirects to Keycloak -->
+<div class="card text-center position-absolute top-50 start-50 translate-middle mx-auto" style="width: 40rem;">
+    <h5 class="card-header">Login</h5>
+    <div class="card-body">
+      <h5 class="card-title">Telemedicine Cloud Requirements Validation
+        Example Application</h5>
+      <p class="card-text">Click here to login</p>
+      <a class="btn btn-primary" href="/login" role="button">Login</a>
+    </div>
+  </div>
+{% endblock %}

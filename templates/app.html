@@ -1,0 +1,67 @@
+{% extends "base_template.html" %}
+{% block title %}Login{% endblock %} 
+
+{% block content%}
+    <!-- Content of the page -->
+    <!-- Three Columns -->
+    <div class="container-fluid text-center" style="height: 100vh;">
+      <div class="row">
+
+        <!-- Mission Information -->
+        <div class="col-sm-1 border" style="height: 100vh;">
+          Mission Info
+        </div>
+
+        <!-- Video -->
+        <div class="col-sm-3 border" style="height: 100vh;">
+          Video
+        </div>
+
+        <!-- Telemetry -->
+        <div class="col-sm-8" style="height: 100vh;">
+          <!-- First Row -->
+          <div class="row">
+            <div class="col-sm-6 border" style="height: 25vh;">
+              ECG I
+            </div>
+            <div class="col-sm-6 border" style="height: 25vh;">
+              ECG aVR
+            </div>
+          </div>
+
+          <!-- Second Row -->
+          <div class="row">
+            <div class="col-sm-6 border" style="height: 25vh;">
+              ECG II
+            </div>
+            <div class="col-sm-6 border" style="height: 25vh;">
+              ECG aVL
+            </div>
+          </div>
+
+          <!-- Third Row -->
+          <div class="row">
+            <div class="col-sm-6 border" style="height: 25vh;">
+              ECG III
+            </div>
+            <div class="col-sm-6 border" style="height: 25vh;">
+              ECG aVF
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="col border" style="height: 25vh;">
+              PR
+            </div>
+            <div class="col border" style="height: 25vh;">
+              SpO2
+            </div>
+            <div class="col border" style="height: 25vh;">
+              NIBP
+            </div>
+          </div>
+        
+        </div>
+      </div>
+    </div>
+    {% endblock %}
